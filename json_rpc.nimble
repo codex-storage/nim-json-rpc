@@ -24,7 +24,7 @@ requires "nim >= 1.6.0",
          "chronos >= 4.0.0 & < 4.1.0",
          "httputils#head",
          "chronicles",
-         "websock >= 0.1.0 & < 0.2.0",
+         "https://github.com/codex-storage/nim-websock >= 0.2.0 & < 0.3.0",
          "json_serialization",
          "unittest2"
 
