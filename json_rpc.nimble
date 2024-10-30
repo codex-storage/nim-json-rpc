@@ -10,7 +10,7 @@
 mode = ScriptMode.Verbose
 
 packageName   = "json_rpc"
-version       = "0.4.4"
+version       = "0.5.0"
 author        = "Status Research & Development GmbH"
 description   = "Ethereum remote procedure calls"
 license       = "Apache License 2.0"
@@ -21,10 +21,10 @@ requires "nim >= 1.6.0",
          "stew",
          "nimcrypto",
          "stint",
-         "chronos#head",
+         "chronos >= 0.4.0 & < 0.5.0",
          "httputils#head",
          "chronicles",
-         "websock",
+         "websock >= 0.1.0 & < 0.2.0",
          "json_serialization",
          "unittest2"
 
